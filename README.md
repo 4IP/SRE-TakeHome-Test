@@ -16,7 +16,7 @@ For monitoring is have multiple choice
 
 All monitoring service can deployed into kubernetes and officially provide the helm repository.
 
-![monitoring-logging](simple-design-monitoring-logging.png)
+![monitoring-logging](simple-design-monitoring-logging.png#gh-light-mode-only)
 
 Thanks
 

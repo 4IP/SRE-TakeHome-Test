@@ -5,7 +5,7 @@ Site Reliability Engineer Take Home Test
 
 The build process on this repository will have 2 build process, i.e nodejs and golang. CI/CD i use github actions, because it's can free without provide resource and support the step actions process extension (this optional, can use argoCD or jenkins or gitlab). after build process, will uploading to image registry in existing is use AWS ECR (Elastic Container Registry). After push the image, will continuing to deploy process. the deploy process is will retrieve manifest, then will running use kustomization to manage deployment.
 
-makesure in workflow github actions i placed region ap-southeast-3 as asia/jakarta, and should placed the kubernetes cluster name, image registry, kubernetes namespace, put aws access key id and secret key id into github secret.
+makesure in workflow github actions i placed region ap-southeast-3 as asia/jakarta, and should placed the kubernetes cluster name, image registry, kubernetes namespace, put aws access key id and secret key id into github secret. The workflow github actions i set it on purpose every push on branch main or merge from pull request into main will triggered or running worklow pipelines.
 
 For monitoring is have multiple choice
 
